@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>She Can Foundation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo">🎗️ She Can Foundation</a>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#impact">Impact</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="header-actions">
+                <button class="theme-toggle" id="themeBtn">🌙</button>
+                <a href="#contact" class="btn-pink">Join Our Mission ❤️</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-container">
+            <div class="hero-left">
+                <h1>Empowering Women <br>Through <span>Education</span></h1>
+                <p>We believe every girl deserves the chance to learn, grow, and lead. Together, we can build a future where women are educated, empowered, and equal.</p>
+                <a href="#contact" class="btn-pink hero-cta">Join Our Mission ➔</a>
+                
+                <div class="members-joined">
+                    <div class="member-avatars">
+                        <img src="assets/images/avatar1.jpg" alt="Avatar">
+                        <img src="assets/images/avatar2.jpg" alt="Avatar">
+                        <img src="assets/images/avatar3.jpg" alt="Avatar">
+                        <img src="assets/images/avatar4.jpg" alt="Avatar">
+                    </div>
+                    <div class="members-text">
+                        <span id="heroCounterDisplay">1,246+</span> Members Joined
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-right">
+                <div class="illustration-box">
+                    <img class="main-ill" src="assets/images/hero-girl.png" alt="Student Illustration">
+                    
+                    <div class="embedded-form">
+                        <h3>Join Our Mission</h3>
+                        <p>Be a part of our journey. Together, we can create change!</p>
+                        
+                        <form id="heroFormObj">
+                            <input type="hidden" name="access_key" value="69319c99-63bf-42fc-bb9f-8d4ec1ac597c">
+                            <input type="hidden" name="from_name" value="She Can Foundation Website">
+                            <input type="hidden" name="subject" value="🌟 New Member Registration Application Received!">
+                            <input type="hidden" name="replyto" value="%email%">
+
+                            <div class="form-group">
+                                <span class="form-icon"><i class="fas fa-user"></i></span>
+                                <input type="text" name="name" id="joinName" placeholder="Full Name" required>
+                            </div>
+                            <div class="form-group">
+                                <span class="form-icon"><i class="fas fa-envelope"></i></span>
+                                <input type="email" name="email" id="joinEmail" placeholder="Email Address" required>
+                            </div>
+                            <div class="form-group">
+                                <span class="form-icon"><i class="fas fa-phone"></i></span>
+                                <input type="tel" name="phoneNumber" placeholder="Phone Number">
+                            </div>
+                            <div class="form-group">
+                                <span class="form-icon"><i class="fas fa-map-marker-alt"></i></span>
+                                <input type="text" name="cityLocation" placeholder="City">
+                            </div>
+                            <div class="form-group">
+                                <span class="form-icon"><i class="fas fa-users"></i></span>
+                                <select name="joinAsRole" required>
+                                    <option value="" disabled selected>I want to join as</option>
+                                    <option value="Volunteer">Volunteer</option>
+                                    <option value="Donor">Donor</option>
+                                    <option value="Student">Student</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn-pink btn-block">Join Now 🚀</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="grey-bg">
+            <h2 class="section-title">Why We Do It</h2>
+            <p class="section-subtitle">Click on each card to know more</p>
+            <div class="cards-grid">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="card-front">
+                            <div class="card-image-wrap"><img src="assets/images/education.png" alt="Education"></div>
+                            <h3>Education</h3>
+                            <p>We provide quality education opportunities for girls and women.</p>
+                            <div class="flip-hint">🔄</div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Why It Matters</h3>
+                            <p>Education breaks barriers, builds confidence, and opens doors to better opportunities and a brighter future.</p>
+                            <button type="button" class="btn-white">Got it!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="card-front">
+                            <div class="card-image-wrap"><img src="assets/images/empowerment.png" alt="Empowerment"></div>
+                            <h3>Empowerment</h3>
+                            <p>Helping women become independent and confident leaders.</p>
+                            <div class="flip-hint">🔄</div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Why It Matters</h3>
+                            <p>Empowered women empower communities. When women rise, societies thrive universally.</p>
+                            <button type="button" class="btn-white">Got it!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="card-front">
+                            <div class="card-image-wrap"><img src="assets/images/equality.png" alt="Equality"></div>
+                            <h3>Equality</h3>
+                            <p>Promoting equal rights and opportunities for every woman.</p>
+                            <div class="flip-hint">🔄</div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Why It Matters</h3>
+                            <p>Fair representation and safe spaces remove systemic limitations to accelerate worldwide economic and social stability.</p>
+                            <button type="button" class="btn-white">Got it!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="impact">
+            <h2 class="section-title">Our Impact in Numbers</h2>
+            <p class="section-subtitle">Together, we are creating real change every day.</p>
+            <div class="impact-grid">
+                <div class="counter-card">
+                    <div class="counter-icon">👥</div>
+                    <div class="counter-number" id="mainMemberCounter" data-target="1246">1246+</div>
+                    <div class="counter-label">Members Joined</div>
+                </div>
+                <div class="counter-card">
+                    <div class="counter-icon">🎓</div>
+                    <div class="counter-number" data-target="5230">5230+</div>
+                    <div class="counter-label">Girls Educated</div>
+                </div>
+                <div class="counter-card">
+                    <div class="counter-icon">📍</div>
+                    <div class="counter-number" data-target="58">58+</div>
+                    <div class="counter-label">Villages Reached</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="grey-bg">
+            <div class="contact-container">
+                <div class="contact-form-wrap">
+                    <h2>Contact Us</h2>
+                    <p class="section-subtitle form-subtitle">We'd love to hear from you.</p>
+                    
+                    <form id="contactFormObj">
+                        <input type="hidden" name="access_key" value="69319c99-63bf-42fc-bb9f-8d4ec1ac597c">
+                        <input type="hidden" name="from_name" value="She Can Foundation Website">
+                        <input type="hidden" name="subject" value="📩 New Direct Contact Message Received">
+                        <input type="hidden" name="replyto" value="%visitorEmail%">
+                        
+                        <div class="contact-input-group">
+                            <input type="text" name="visitorName" placeholder="Your Name" required>
+                        </div>
+                        <div class="contact-input-group">
+                            <input type="email" name="visitorEmail" placeholder="Your Email" required>
+                        </div>
+                        <div class="contact-input-group">
+                            <input type="textarea" name="visitorMessage" placeholder="Your Message" required>
+                        </div>
+                        <button type="submit" class="btn-pink">Send Message ✉️</button>
+                    </form>
+                </div>
+
+                <div class="ui-showcase-side">
+                    <div class="mock-toast" id="successCard" style="display:none;">
+                        <div class="close-mock">❌</div>
+                        <div class="success-toast-content">
+                            <div class="success-checkmark">✓</div>
+                            <h3>Thank You!</h3>
+                            <p>Your message has been sent successfully. We will get back to you soon.</p>
+                            <button type="button" class="btn-pink ok-btn">OK</button>
+                        </div>
+                    </div>
+
+                    <div class="mock-toast" id="alertCard" style="display:none;">
+                        <div class="close-mock">❌</div>
+                        <div class="notification-banner">
+                            <div class="noti-icon">📩</div>
+                            <div class="noti-details">
+                                <h4 class="purple-text">Welcome to She Can Foundation! 🎉</h4>
+                                <p>Thank you for joining us. Check your email for details.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mock-toast" id="metricCard" style="display:none;">
+                        <div class="close-mock">❌</div>
+                        <div class="notification-banner sub-banner">
+                            <div class="noti-icon green-icon">✨</div>
+                            <div class="noti-details">
+                                <h4 class="green-text"><span id="dynamicJoinerName">New Member</span> Joined! 🌟</h4>
+                                <p>A new change-maker just registered to help our cause!</p>
+                            </div>
+                        </div>
+                        <div class="member-counter-box">
+                            <div class="mb-count">
+                                <p>Total Members</p>
+                                <h2 id="toastCounterDisplay">1,246+</h2>
+                            </div>
+                            <div class="box-users-icon">👥</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-news">
+                <h3>Stay Updated with Our Mission</h3>
+                <p>Subscribe to our newsletter and never miss an update.</p>
+                <form class="newsletter-form" id="newsletterFormObj">
+                    <input type="hidden" name="access_key" value="69319c99-63bf-42fc-bb9f-8d4ec1ac597c">
+                    <input type="hidden" name="from_name" value="She Can Foundation Website">
+                    <input type="hidden" name="subject" value="📰 New Newsletter Subscriber Added!">
+                    <input type="email" name="subscriberEmail" placeholder="Enter your email" required>
+                    <button type="submit" class="btn-pink">Subscribe ✉️</button>
+                </form>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">➔ Home</a></li>
+                    <li><a href="#about">➔ About Us</a></li>
+                    <li><a href="#impact">➔ Our Impact</a></li>
+                    <li><a href="#contact">➔ Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 She Can Foundation. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+    <div id="adminDashboardModal" class="admin-modal" style="display: none;">
+        <div class="admin-modal-content">
+            <div class="admin-modal-header">
+                <h3><i class="fas fa-users-cog"></i> Foundation Joiners Directory</h3>
+                <span class="close-admin-modal">&times;</span>
+            </div>
+            <div class="admin-modal-body">
+                <p class="admin-subtitle">A live view of active website joiners stored locally. Click the mail icon to send an update or the trash icon to remove a member.</p>
+                
+                <div class="admin-controls-bar">
+                    <div class="admin-search-wrapper">
+                        <i class="fas fa-search search-inside-icon"></i>
+                        <input type="text" id="adminSearchInput" placeholder="Search by name or role...">
+                    </div>
+                    
+                    <button id="btnEmailAll" class="btn-email-all" title="Send email to all joiners at once">
+                        <i class="fas fa-paper-plane"></i> Email All
+                    </button>
+                    
+                    <button id="btnExportCSV" class="btn-export" title="Export to Excel / CSV">
+                        <i class="fas fa-file-download"></i> Export
+                    </button>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="admin-table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Role</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="adminMembersTableBody"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
